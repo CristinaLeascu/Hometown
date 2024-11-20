@@ -1,0 +1,115 @@
+body {
+    border: 5px solid #021010;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.header {
+    background-image: url('/images/haverhill-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    padding-top: 70px;
+    text-align: center;
+    color: #f0f8ff;
+    text-shadow: 0 0 5px black;
+}
+
+.todo-section {
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#todo-title {
+    margin: 20px auto 20px auto;
+    padding: 7px 12px 7px 12px;
+    color: whitesmoke;
+    background-color: #414242;
+    text-shadow: 0 0 5px black;
+}
+
+#todo-sub-section {
+    display: flex;
+}
+
+.todo-sub-section {
+    width: 30%;
+    padding: 0 2% 0 2%;
+}
+
+.todo-sub-section h3 a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    text-shadow: 0 0 5px white;
+    border-bottom: 3px solid black;
+}
+
+.todo-sub-section h3 a:hover {
+    background-color: #2596be;
+    text-shadow: 0 0 5px white;
+    font-size: 18px;
+    padding: 6px 12px;
+}
+
+.todo-sub-section p {
+    align-items: center;
+    justify-content: center;
+}
+
+#art-center-img {
+    height: 150px;
+    width: 150px;
+}
+
+#etp-img {
+    height: 150px;
+    width: 200px;
+}
+
+#escape-rooms-img {
+    height: 150px;
+}
+
+.card-section {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 5px white;
+    background-color: #C7DEEB;
+    color: #414242;
+    border-top: 4px solid #414242;
+    border-left: 4px solid #414242;
+    box-shadow: 5px 5px 5px #C7DEEB;
+    border-radius: 15px;
+}
+
+.card-section div {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+div #card-section-name {
+    text-align: end;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.card-section div {
+    text-align: center;
+}
